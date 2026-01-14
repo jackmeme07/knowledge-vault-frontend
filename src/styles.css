@@ -281,3 +281,151 @@ p{
     padding: .8rem;
     
 }
+/* SOLUTION SECTION STYLES */
+.solution-container {
+    padding: 100px 8%;
+    background-color: #fcfcfc;
+}
+
+.solution-grid {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.solution-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.solution-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.solution-text {
+    flex: 1;
+}
+
+.sub-heading {
+    color: #30B868;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.solution-text h2 {
+    font-size: 36px;
+    color: #0b1220;
+    margin: 15px 0;
+}
+
+.solution-text p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    color: #0b1220;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.check {
+    background: #30B868;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+/* FINAL CTA STYLES */
+.cta-section {
+    padding: 80px 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-card {
+    background-color: #f7f9f7;
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cta-card h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #0b1220;
+}
+
+.cta-card p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.cta-subtext {
+    margin-top: 15px;
+    font-size: 12px !important;
+    color: #999 !important;
+}
+
+/* FOOTER STYLES */
+.footer {
+    background-color: #060f1e;
+    padding: 60px 8% 30px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 40px;
+}
+
+.social-links p {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-bottom {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #888;
+}
+.w-50{
+    width: 30%;
+    margin: auto;
+}
