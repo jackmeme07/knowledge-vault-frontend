@@ -107,7 +107,7 @@ p{
 .hero {
   position: relative;
   min-height: 35rem;
-  background: url("./img/bg.jpg") center/cover no-repeat;
+  background: url("../img/bg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 0 8%;
